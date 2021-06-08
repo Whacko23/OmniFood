@@ -1,8 +1,17 @@
+/*
+   Button Oragne Color: #ff7f50
+*/
+
+/*------------------------------------------*/
+/* BASIC SETUP             */
+/*------------------------------------------*/
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 html{
   background-color: #fff;
@@ -13,21 +22,16 @@ html{
   text-rendering: optimizeLegibility;
 }
 
-header{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(img/hero.jpg);
-  background-size:cover;
-  background-position: center;
-  height: 100vh;
+/*------------------------------------------*/
+/* REUSABLE COMPONENTS            */
+/*------------------------------------------*/
 
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.hero-text-box{
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+/*----------HEADINGS--------------------*/
 
 h1{
   margin: 0 0 20 0;
@@ -38,6 +42,8 @@ h1{
   letter-spacing: 1px;
   word-spacing: 4px;
 }
+
+/*----------BUTTONS--------------------*/
 
 .btn:link,
 .btn:visited {
@@ -81,3 +87,58 @@ h1{
   border: 1px solid #a52c00;
   color: #fff;
 }
+
+/*------------------------------------------*/
+/* HEADER           */
+/*------------------------------------------*/
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(img/hero.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 2em;
+  }
+
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 4em;
+}
+
+.main-nav li{
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 90%;
+   padding-bottom: 0.5em;
+   border-bottom: 2px solid transparent;
+   transition: border-bottom 0.3s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #ff7f50;
