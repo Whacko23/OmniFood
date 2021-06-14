@@ -378,3 +378,55 @@ header{
   fill: #3498db;
 }
 
+
+/*------------------------------------------*/
+/* SECTION TESTIMONIALS       */
+/*------------------------------------------*/
+
+.section-testimonials{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+
+}
+
+blockquote{
+  padding-left: 2%;
+  font-style:italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote::before{
+  content: '\201C';
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+cite::before{
+  content: '\201D';
+  font-size: 500%;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+cite{
+  display: block;
+  font-size: 90%;
+  margin-top: 25px;
+  position: relative;
+}
+
+
+cite img{
+  height: 45px;
+  border-radius: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
