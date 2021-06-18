@@ -1,0 +1,26 @@
+
+
+/* mid size monitor to ultrawide monitors: 1366px to 2560x*/
+@media only screen and (max-width: 2560px){
+
+}
+
+/* Big tablets to mid size monitor: 1024px to 1365px*/
+@media only screen and (max-width: 1365px){
+
+}
+
+/* Small tablet to big tablet: 768px to 1023x*/
+@media only screen and (max-width: 1023px){
+
+}
+
+/* Small phones to small tablets: 481px to 767px*/
+@media only screen and (max-width: 767px){
+
+}
+
+/* Small phones: 0px to 480px*/
+@media only screen and (max-width: 480px){
+
+}
